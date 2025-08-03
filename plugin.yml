@@ -1,0 +1,46 @@
+name: NTrap
+main: com.example.ntrap.NTrapPlugin
+version: 1.0
+api-version: 1.20
+commands:
+  trap:
+    description: Trap komutları
+    usage: /trap <create|info|trust|transfer|delete|extend|settime|addchunk|removechunk|reload>
+    permission: ntrap.use
+permissions:
+  ntrap.use:
+    description: Temel komut izni
+    default: true
+  ntrap.admin:
+    description: Admin komutları izni
+    default: op
+  ntrap.bypass:
+    description: Bypass izni
+    default: op
+  ntrap.ver:
+    description: Trap verme izni
+    default: op
+  ntrap.ekle:
+    description: Trap ekleme izni
+    default: op
+  ntrap.sil:
+    description: Trap silme izni
+    default: op
+  ntrap.uzat:
+    description: Trap süre uzatma izni
+    default: op
+  ntrap.zamanayarla:
+    description: Trap süre ayarlama izni
+    default: op
+  ntrap.chunkekle:
+    description: Trap'e chunk ekleme izni
+    default: op
+  ntrap.devret:
+    description: Trap devretme izni
+    default: op
+  ntrap.chunksil:
+    description: Trap'ten chunk silme izni
+    default: op
+  ntrap.reload:
+    description: Plugin reload izni
+    default: op

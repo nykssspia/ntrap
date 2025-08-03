@@ -30,11 +30,11 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- PlaceholderAPI -->
+        <!-- PlaceholderAPI: sürüm 2.10.10 ile değiştirildi -->
         <dependency>
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
-            <version>2.11.3</version>
+            <version>2.10.10</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -50,8 +50,6 @@
                     <target>17</target>
                 </configuration>
             </plugin>
-
-            <!-- Plugin jar shading or other plugins if needed -->
         </plugins>
     </build>
 </project>
